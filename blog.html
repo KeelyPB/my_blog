@@ -9,9 +9,9 @@
     </head>
 <body>
     <script src="css/bootstrap/js/bootstrap.bundle.js"></script>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-secondary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">KEELY'S</a>
+        <a class="navbar-brand" href="#">KEELY'S TRIP GUIDE</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,10 +31,9 @@
                 Blog
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="blog/politics.html">Politics</a></li>
-                <li><a class="dropdown-item" href="/blog/technology.html">Technology</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="/blog/football.html">Football</a></li>
+                <li><a class="dropdown-item" href="blog/beach.html">Beaches</a></li>
+                <li><a class="dropdown-item" href="/blog/hotels.html">Hotels</a></li>
+                <li><a class="dropdown-item" href="/blog/parks.html">Parks</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -44,10 +43,120 @@
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn btn-outline-primary" type="submit">Search</button>
           </form>
         </div>
       </div>
   </nav>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+          <img src="/images/gamepark1.jfif">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Gameparks & Beaches.</h1>
+            <p>Uganda has exciting places like game parks all at your disposal.</p>
+            <p><a class="btn btn-lg btn-primary" href="/blog/parks.html">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+        <img src="/images/hotel.jfif">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Accomodation & Hotels.</h1>
+            <p>Where do you plan to stay while here?</p>
+            <p><a class="btn btn-lg btn-primary" href="/blog/hotels.html">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+        <img src="/images/lion.jfif">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Places to visit.</h1>
+            <p>Find places that much your energy</p>
+            <p><a class="btn btn-lg btn-primary" href="gallery.html">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+    <div class="container text-left">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        Locate Us
+                    </div>
+                    <div class="card-body" id="card">
+                        <blockquote class="blockquote mb-0">
+                        <p>Telephone: 0770369456</p>
+                        <p>Email: keelybagaya@gmail.com</p>
+                        <p>Location: Mukono, Uganda</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col"><div class="card">
+                <div class="card-header">
+                    Email Us
+                </div>
+                <div class="card-body" id="card">
+                    <blockquote class="blockquote mb-0">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </blockquote>
+                </div>
+            </div></div>
+            
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer class="footer mt-auto py-3 bg-secondary">
+      <div class="container">
+        <span class="text-muted">
+          <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2024 Keely's Trip Guide. &middot; </p>
+        </span>
+      </div>
+    </footer>       
 </body>
 </html>
+
+
+
+  
+  
